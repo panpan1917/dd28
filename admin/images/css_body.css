@@ -1,0 +1,49 @@
+html{padding-top:5px;padding-bottom:5px;padding-right:5px;}
+body{font-family:"宋体", Verdana, Arial, Helvetica, sans-serif;font-size:14px;color: #555;padding:0px;margin:0px;}
+input{border-width:1px;border:1px solid #bdbcbd;
+/*padding:3px 0 3px 5px; */
+}
+input[type=image]{ border:none }
+input[type=checkbox]{ border:none }
+input[type=radio]{ border:none }
+img{border:0px;}
+a{color:#000;}
+a:hover{color:#FF0000;text-decoration:none;}
+.red{color:#f00}
+.bold{font-weight: bold}
+.bodytitle{width:99%;height:30px;background:url(body_title_bg.gif) top left repeat-x;margin-left:auto;margin-right:auto;margin-top:3px;clear:both;line-height: 30px;border-right-width: 1px;border-right-style: solid;border-right-color: #8cc0e7;}
+.bodytitleleft{width:20px;height:30px;float:left;background-image: url(body_title_left.gif);background-repeat: no-repeat;background-position: left center;}
+.bodytitletxt{height:30px;float:left;line-height:30px;font-size:14px;font-weight:bold;letter-spacing:1px;padding-right:20px;font-family: Arial;color: #fff;background-color: #FFF;background-image: url(body_title_right.gif);background-repeat: no-repeat;background-position: right center;}
+.bodytitletxt2{height:30px;float:right;line-height:30px;font-size:12px;font-weight:bold;letter-spacing:1px;padding-right:20px;}
+.tbtitle{height:27px;margin:8px auto 0px auto;line-height:25px;}
+.inputbut{padding-left:3px;padding-right:2px;border:1px solid #bdbcbd;background:#fff url(inputbut_bg.gif) left center repeat-x;font-size:12px;height:24px;cursor: pointer;}
+.bline {border-bottom: 1px dotted #BCD0B5;}
+a.page {border: 1px solid #cad9ea; background: #FFFFFF; text-decoration: none; color:#C16012; display:inline-block;padding:0px 6px 0px 6px;}
+a.page:visited {border: 1px solid #cad9ea; background: #FFFFFF; text-decoration: none;padding:0px 6px 0px 6px;}
+.curr {border: 1px solid #aed3e9; background: #FFFFFF;color: #999;display:inline-block;padding:0px 6px 0px 6px;}
+.xingmu {FONT-WEIGHT: bolder;FONT-SIZE: 12px;COLOR: #0257A8;LINE-HEIGHT: 25px;FONT-FAMILY: Verdana, 新宋体;background-image: url(tobbg.gif);background-repeat: repeat;}
+.refreshlen {BORDER: #cad9ea 1px solid; MARGIN-top: 10px;MARGIN-BOTTOM: 5px; WIDTH: 400px; HEIGHT: 25px; TEXT-ALIGN: left}
+/*按钮*/
+.btn-1{border-style: none;
+	border-color: inherit;
+	border-width: medium; 
+	background: url(bg_btn.png) no-repeat;
+	text-align:center;	height:20px;	line-height:20px;display:-moz-inline-stack;	display:inline-block;	color:#0D1F37;	font-size:12px;	margin:auto 2px;	cursor:pointer;
+	width: 60px;
+}
+.btn-3,.btn-3 input{background:url(bg_btn1.png) no-repeat;padding-left:5px;height:20px;display:-moz-inline-stack;display:inline-block;cursor:pointer;}
+/*列表0E6BA4*/
+.listtable{background:#0E6BA4;margin:3px 0 0 0; font-size:12px;}
+.listtabletr{ height:25px;}
+.listtabletr td{height:25px;padding:0 4px;background:#FFF;}
+.listtabletr1 td{height:25px;padding:0 4px;}
+.listtabletr2 td{height:22px;padding:0 4px; text-align:center;}
+
+.fenyebar {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 90%;
+}
+#tblList tr:hover{background:#E4E4E4;}

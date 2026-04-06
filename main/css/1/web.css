@@ -1,0 +1,145 @@
+
+#Content {
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    width: 1000px;
+}
+.left {
+    border: 1px solid #ddd;
+    color: #888;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    width: 202px;
+}
+.list {
+    border: 1px solid #ddd;
+    float: left;
+    width: 320px;
+}
+.left ul li {
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+.left_top {
+    background: rgba(0, 0, 0, 0) url("../img/user_rankings_bg.jpg") repeat scroll 0 0;
+    height: 44px;
+}
+.list_top {
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+}
+.list_top img {
+    vertical-align: bottom;
+}
+.list_top span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.list_top li {
+    background-color: #fafbfc;
+}
+.pm {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 54px;
+}
+.nc {
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    width: 170px;
+    word-break: keep-all;
+}
+.nc2 {
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    width: 236px;
+    word-break: keep-all;
+}
+.jj {
+    border-left: 1px solid #ddd;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 70px;
+}
+.yl {
+    float: left;
+    width: 84px;
+    height: 40px;
+    line-height: 40px;
+}
+.list_Content {
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.pm div {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 15px;
+    margin: 12px auto auto;
+    width: 15px;
+}
+.c_red {
+    color: #f00;
+}
+.rankingsSelect {
+    background: rgba(0, 0, 0, 0) url("../img/rankingsSelect.jpg") repeat scroll 0 0;
+    color: #fff;
+}
+.rankingsxian {
+    float: left;
+    height: 400px;
+    width: 14px;
+}
+.listtops {
+    background-color: #fafbfc;
+    border-bottom: 1px solid #ddd;
+}
+.listtops img {
+    margin-top: 7px;
+}
+.bgs1 {
+    background-color: #ff6666;
+}
+.bgs2 {
+    background-color: #ffba00;
+}
+.bgs3 {
+    background-color: #04cabd;
+}
+.rankings1 {
+    background: rgba(0, 0, 0, 0) url("/img/rank/rankings1.jpg") no-repeat scroll 0 0;
+}
+.rankings2 {
+    background: rgba(0, 0, 0, 0) url("/img/rank/rankings2.jpg") no-repeat scroll 0 0;
+}
+.rankings3 {
+    background: rgba(0, 0, 0, 0) url("/img/rank/rankings3.jpg") no-repeat scroll 0 0;
+}
+.rankings0 {
+    background: rgba(0, 0, 0, 0) url("/img/rank/rankings0.jpg") no-repeat scroll 0 0;
+}

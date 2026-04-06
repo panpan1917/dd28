@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+#user_info{
+	margin:50px 0 0 0;
+}
+.member_bg{
+	background:#b9bfc1;
+	padding:5px 0;
+}
+.member_bg .media{
+	padding-left:10px;
+}
+.member_bg .media h4{
+	font-size:12px;
+	margin-bottom:5px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space: nowrap;
+}
+.member_bg p span{
+	display:block;
+	width:42px;
+	height:16px;	
+}
+.member_bg p span.v0{
+	background: url(../img/user/0.png);
+}
+.member_bg p span.v1{
+	background: url(../img/user/1.png);
+}
+.member_bg p span.v2{
+	background: url(../img/user/2.png);
+}
+.member_bg p span.v3{
+	background: url(../img/user/3.png);
+}
+.member_bg p span.v4{
+	background: url(../img/user/4.png);
+}
+.member_bg p span.v5{
+	background: url(../img/user/5.png);
+}
+.member_bg p span.v6{
+	background: url(../img/user/6.png);
+}
+.member_bg p span.v7{
+	background: url(../img/user/7.png);
+}
+.member_bg p span.v8{
+	background: url(../img/user/8.png);
+}
+.member_bg p span.v9{
+	background: url(../img/user/9.png);
+}
+.member_bg p span.v10{
+	background: url(../img/user/10.png);
+}
+.loginout{
+	padding:10px 15px 0 0;
+}
+.loginout a{
+	text-decoration:none;
+	font-size:12px;
+	color:#666;
+}
+.bank_num{
+	text-align:center;
+	padding:8px 0;
+	margin:0;
+	font-size:14px;	
+}
+.member_bank p{
+	padding:8px 0;
+	margin:0;
+}
+.member_infos{
+	padding:0 4px;
+}
+.member_bank{
+	border-bottom:1px dashed #ccc;
+}
+.member_lists h3{
+	text-align:center;
+	font-size:12px;
+	font-weight: bold;
+	color:#999;
+	margin:0;
+	padding:0;
+}
+.member_lists h4{
+	font-size:16px;
+	height:30px;
+	line-height:30px;
+	padding:0 0 0 6px;
+	font-weight: bold;
+	border-bottom:1px dashed #ccc;
+}
+.member_lists h4 img{
+	display:block;
+	float:left;
+	padding:0 3px 0 0;
+}
+.member_lists img{
+	border:none;
+}
+.member_lists .thumbnail{
+	margin:-1px 0 0 0;
+	border-radius:0;
+	border-right:none;
+}
+
+
+
+
+
+
+
+
+

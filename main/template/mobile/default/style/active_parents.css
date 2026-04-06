@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+
+/*	最新活动	*/
+.active ul li a{
+	color:#5c6570;
+}
+#active-border{
+	position:relative;
+	border:1px solid #ddd;	
+	margin-top:-1px;
+	padding:5px;
+}
+#active-border h4{
+	font-size:14px;
+}
+#active-border .media-body p{
+	font-size:12px;
+	margin:0;
+	line-height:2;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.ing{
+	position:absolute;
+	right:0px;
+	top:0;
+}
+.collapse_text{
+	padding:10px 0 0 0;
+}
+.collapse_text h2{
+	font-size:16px;
+	color:#333;
+}
+.collapse_text p{
+	text-indent:10px;
+}
+
+
+
+
+
+/*  合作商家  */
+
+.thumbnail{
+	box-shadow:2px 2px 3px #ccc;
+	margin:10px 0;
+}
+.thumbnail .line{
+	height:0;
+	border-bottom:1px dashed #ccc;
+	margin:5px 0;
+}
+.text h3{
+	margin:8px 0 0 0;
+	font-size:16px;
+}
+.text p{
+	margin:0;
+	line-height: 1.8;
+}
+.text .xx{
+	margin:0 20px 0 0;
+}
+.text .orange{
+	color:orange;
+}
+.bg_span{
+	text-align:center;
+}
+.bg_span span{
+	display:inline-block;
+	padding:3px 5px;
+	border-radius:3px;
+	color:#fff;
+	margin:3px 0 0 0;
+}
+.bg_span span:nth-child(1){
+	background: #53cac3;
+}
+.bg_span span:nth-child(2){
+	background: #d74467;
+}
+.bg_span span:nth-child(3){
+	background: #5375ca;
+}
+.bg_span span:nth-child(4){
+	background: #b253ca;
+}
+.bg_span span:nth-child(5){
+	background: #e09622;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+@charset "utf-8";
+.name_list{
+	width:100%;
+	padding:0;
+	margin:0;
+}
+.name_list li{
+	width:33%;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.name_list li a{
+	padding:10px 5px;
+	color:#666;
+}
+table td:nth-child(1) span{
+	color:#fff;
+}
+table td:nth-child(1) span{
+	border-radius: 4px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:#7abce6;
+}
+table td:nth-child(1) span.first{
+	background: #f8b831;
+}
+table td:nth-child(1) span.second{
+	background:#f84e31;
+}
+table td:nth-child(1) span.third{
+	background:#31f89b;
+}
+.table>tbody>tr>td{
+	padding:8px 3px;
+}
+ 
+
+
+/*	没有小于768px 是因为Bootstrap3 以移动端优先设计	*/
+/*	小屏幕 (平板，大于等于768px)	*/
+@media (min-width: 768px) {
+
+
+}
+
+/*	中等屏幕 (桌面显示，大于等于992px)	*/
+@media (min-width: 992px) {
+
+	
+}
+
+/*	大屏幕 (大桌面显示器，大于等于1200px)	*/
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

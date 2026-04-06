@@ -1,0 +1,57 @@
+@charset "utf-8";
+.member_list{
+	margin:5px 0;
+}
+.member_list h4{
+	padding:5px 15px;
+	margin:0;
+	line-height: 1.6;
+	font-size:14px;
+	border-bottom:1px solid #eee;
+}
+.member_list h4 img{
+	display:inline-block;
+}
+.member_list h4 a{
+	color:#666;
+}
+.user_list{
+	padding:3px 0;
+}
+.user_list a{
+	display:block;
+	padding:3px 0 0 0;
+	color:#999;
+}
+.user_list a:hover{
+	background: #eee;
+}
+.user_list span{
+	display:block;
+	font-size:22px;
+}
+.user_list b{
+	display:block;
+	padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

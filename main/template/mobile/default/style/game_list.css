@@ -1,0 +1,137 @@
+@charset "utf-8";
+body{
+	background:#fff;
+}
+.panel-heading{
+	padding:0;
+}
+.panel_line a{
+	display:block;
+	padding:0 10px;
+	height:32px;
+	line-height: 32px;
+	text-decoration:none;
+	color:#333;
+	font-size:14;
+}
+.js_bg{
+	display:block;
+	width:32px;
+	height:32px;
+	float:right;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../img/game_list/up1.png);
+}
+.bj_bg{
+	display:block;
+	width:32px;
+	height:32px;
+	float:right;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../img/game_list/up3.png);
+}
+.pk_bg{
+	display:block;
+	width:32px;
+	height:32px;
+	float:right;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../img/game_list/up2.png);
+}
+.dd_bg{
+	display:block;
+	width:32px;
+	height:32px;
+	float:right;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../img/game_list/up5.png);
+}
+.jnd_bg{
+	display:block;
+	width:32px;
+	height:32px;
+	float:right;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../img/game_list/up4.png);
+}
+.qt_bg{
+	display:block;
+	width:32px;
+	height:32px;
+	float:right;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../img/game_list/up6.png);
+}
+.bg_circle{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background: #FF6666 ;
+	float:left;
+}
+
+#qt p{
+	text-align:center;
+	padding:5px 0 0 0;
+	color:red;
+	font-size:14px;
+}
+.list_game{
+	padding:0px 0;
+}
+.list_game li{
+	border-bottom:1px solid #eee;
+}
+.list_game li a{
+	display:inline-block;
+	padding:5px 0px 5px 15px;
+	text-decoration:none;
+	font-size:12px;
+	letter-spacing:1px;
+	color:#666;
+	width:24%;
+}
+.list_game li a:hover,.list_game li a:focus{
+	background: #eee;
+}
+.right_caret{
+	padding:0 3px;
+	display:inline;
+	position:relative;
+}
+
+
+.dc5562{
+	color:#dc5562;
+}
+.e5cd4{
+	color:#8e5cd4;
+}
+
+.fa9d4c{
+	color:#fa9d4c;
+}
+.f60{
+	color:#398de3;
+}
+.b1bc39{
+	color:#b1bc39;
+}
+
+
+
+
+
+
+
+
+
+
+

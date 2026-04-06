@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.merchants{width:auto; height:auto; margin:5px 0 0 0; border:1px solid #ccc;}
+.merchants h2{height:40px; line-height:40px; padding:0 0 0 25px; background:#C70B00 url(../../images/merchants/agentlogo.png) 10px center no-repeat; border-bottom:1px solid #ccc; color:white; text-indent:20px;}
+.merchants ul{width:auto; clear:both; padding:6px;}
+.merchants ul li{display:inline-block; width:180px; height:110px; margin:5px 0 0 10px;font-size:16px; font-weight:bold;background:url(../../img/merchants.png) no-repeat;}
+.merchants ul li a{ display:block;}
+.merchants ul li span{ color:#F7E7BC; font-size:14px; font-weight:bolder; padding-top:15px;}
+.merchants ul li span.n{ width:100%; float:left; text-align:left; padding-left:15px;}
+.merchants ul li span.q{ width:100%; float:left; text-align:left;padding-left:15px;padding-top:3px; font-size:14px;}
+
+.merchants ul li span.uname{
+	margin:60px 0 0 40px;
+	display:block; 			
+}
+.merchants ul li span.uqq{
+	margin:5px 0 0 40px;
+	display:block; 			
+}
+.merchants ul li span.usm{
+	float:right;
+	margin:-10px 10px 0 0px;
+	display:block;
+	width:80px;	
+	text-align:center;	
+}

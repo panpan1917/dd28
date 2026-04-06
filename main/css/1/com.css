@@ -1,0 +1,135 @@
+/* CSS Document */
+*{ padding:0; margin:0;}
+li{list-style-type:none; }
+a{ text-decoration:none;}
+i{ font-style:normal; }
+img{ border:none;}
+body{  width:100%; margin:0 auto; font-size:12px;  font-family:'微软雅黑'; color:#000; background:#fff;}
+.header{ width:100%; overflow:hidden; height:160px;}
+.top{min-width:1000px; max-width:100%; border-bottom:1px solid #ccc; background:#EFEFEF; }
+.top div{ height:30px; width:1000px; margin:0 auto;}
+.top .coach{ float:left; height:30px;}
+.top .coach{ padding-left:15px; background:url(/img/sj.png) no-repeat 5px center; }
+.top .greet{ float:right;}
+.top .datum{ float:right;}
+.top ul li{ color:#000; height:30px; line-height:30px;}
+.top ul.greet li a,.top ul.coach li a{ color:#000; display:inline-block; margin:0 10px;}
+.top ul li a:hover{ text-decoration:underline; }
+.top .datum li i{ font-family:Times New Roman; color:#f00; font-size:12px; font-weight:600; padding-right:15px;}
+.top .datum li a{ color:#f00; padding:0 2px;}
+.top .datum li i.mail{ padding-right:0; padding-left:20px; background:url(/img/mail.png) no-repeat left center;}
+.top .datum li i.coin{ background:url(/img/Coin.png) no-repeat right center ;}
+.top .datum li a.ti{ color:#000;}
+.van{ height:75px; width:1000px; margin:0 auto; background:url(/img/nav_bg.png) no-repeat right center;} 
+.navi{ height:54px; min-width:1000px; max-width:100%; background:#C70B00 url(/img/gamelist/navbg.png) repeat-x;}
+.navi ul{width:1000px; margin: 0 auto; padding:1px 0;}
+.navi ul li{ float:left; background:url(/img/navi.png) no-repeat right center; padding-right:2px; }
+.navi ul li a{ font-size:16px; color:#fff; height:18px; overflow:hidden; float:left; line-height:18px; width:109px; padding:17px 0; text-align:center; font-weight:bolder; font:"宋体";}
+.navi ul li a:hover{ text-decoration:none; }
+.navi ul li a.pick{ background:url(/img/pick.png) no-repeat center; text-align:center;}
+.navi ul li.index a.pick{ text-align:left;}
+.navi ul li.index a{ text-align:left; text-indent:5px;}
+.navi ul li.index a img{ float:left; margin:-5px 0 0 22px; border:none; }
+
+
+#Content{width:1000px; height:auto; margin:0 auto;}
+
+.footer{ clear:both; width:100%; height:128px; border-top:1px solid #ccc; margin-top:10px; background:#F1F1F1; }
+.footer ul{ width:315px; margin:40px auto; position:relative;}
+.footer ul li{ width:315px; text-align:center; margin:5px 0;}
+.footer ul li a{ color:#000;}
+.footer ul li a:hover{ text-decoration:underline; }
+.footer ul img{ position:absolute;}
+.footer ul img.business{ top:-3px; left:-95px;}
+.footer ul img.police{ top:-7px; right:-205px;}
+
+.top .datum li i.mailxx {
+    background: url("/img/mailxx.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.Edit .tial span {
+    display: inline-block;
+    height: 33px;
+}
+
+input.btn-1 {
+    background: url("/img/tal.fw.png") no-repeat !important;
+    border-color: inherit !important;
+    border-style: none !important;
+    border-width: medium !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 14px;
+    height: 33px !important;
+    line-height: 33px !important;
+    margin: auto 2px !important;
+    text-align: center !important;
+    width: 89px!important;
+}
+
+.popup {background:#FFF; border:1px solid #333; padding:1px;}
+.popup-header {height:24px; padding:7px; background:url("/img/bgr_popup_header.jpg") repeat-x;}
+.popup-header h2 {margin:0; padding:0; font-size:14px; float:left;}
+.popup-header .close-link {float:right; font-size:12px;}
+.popup-body {padding:10px;}
+
+.popup-body .table{overflow:hidden; margin:0 auto; clear:both;}
+.popup-body .table_list{ float:left;}
+.popup-body .table_list th{ height:30px; text-align:center; line-height:30px; background:#e6e6e6; font-size:14px;  border:1px solid #ccc; border-top:2px solid #bc0000;padding: 0 4px;}
+.popup-body .table_list td{ height:35px; text-align:center; line-height:35px; font-weight:400; font-size:14px; border:1px solid #ccc;padding: 0 4px; }
+.popup-body .table_list td.please{ }
+.popup-body .table_list td.please span{ padding-right:18px; background:url(/img/Coin.png) no-repeat right center;}
+.popup-body .table_list td.please span i{ color:#cb0000; }
+.popup-body .table_list td.regular{ padding:0 2px; font-size:18px; color:#656565; font-weight:600; line-height:30px;}
+.popup-body .table_list td li.finalbig { font-style:normal; color:#fff; font-size:21px; background:url(/img/lottery.fw.png) no-repeat; display:inline-block; width:32px; height:32px; text-indent:0px; line-height:32px; text-align:center; } 
+.popup-body .table_list td em{ font-style:normal; background:url(/img/word.fw.png) no-repeat; display:inline-block; width:21px; height:21px; text-indent:0; padding:0 1px; margin:0;
+*display:inline;
+*zoom:1;
+letter-spacing:normal;
+word-spacing:normal;
+}
+
+
+.rankings1{
+	background:url(/img/rankings1.jpg) no-repeat;	
+}
+.rankings2{
+	background:url(/img/rankings2.jpg) no-repeat;	
+}
+.rankings3{
+	background:url(/img/rankings3.jpg) no-repeat;	
+}
+.rankings0{
+	background:url(/img/rankings0.jpg) no-repeat;	
+}
+
+
+.index_top_line {
+    background: none repeat scroll 0 0 #f1f1f1;
+    border-top: 1px solid #d7d7d7;
+    height: 8px;
+    width: 100%;
+}
+
+
+.lvspan0{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv0.gif) no-repeat}
+.lvspan1{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv1.gif) no-repeat}
+.lvspan2{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv2.gif) no-repeat}
+.lvspan3{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv3.gif) no-repeat}
+.lvspan4{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv4.gif) no-repeat}
+.lvspan5{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv5.gif) no-repeat}
+.lvspan6{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv6.gif) no-repeat}
+.lvspan7{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv7.gif) no-repeat}
+.lvspan8{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv8.gif) no-repeat}
+.lvspan9{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv9.gif) no-repeat}
+.lvspan10{ display:inline-block; height:20px; width:60px; background:url(/image/lvimg/lv10.gif) no-repeat}
+
+
+
+
+
+
+

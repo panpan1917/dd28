@@ -1,0 +1,207 @@
+@CHARSET "UTF-8";
+/* 此为轮播 */
+#myCarousel{
+	margin:50px 0 0 0;
+}
+.carousel-inner img{
+	margin:0 auto;
+}
+.carousel-indicators{
+	bottom:0;
+}
+
+
+/*	首页登录	*/
+#main_login p{
+	text-align:center;
+	margin:0;
+	height:30px;
+	line-height:30px;
+}
+#main_login p a{
+	color:#fff;
+	padding:3px 5px;
+	background:#dd2726;
+	border-radius:3px;
+
+}
+#main_login p span{
+	margin-right:15px;
+	color:#dd2726;
+}
+
+/*	此为游戏类   */
+#main_type{
+	padding:5px 0;
+	margin:5px 0;
+}
+.main_row{
+	padding:3px 0;
+}
+.main_row a{
+	color:#5c6570;
+	display:block;
+	text-align:center;
+}
+.main_row a img,.main_row a span{
+	display:block;	
+	padding:2px 0;
+}
+.main_row a img{
+	margin:0 auto;
+	width:45%;
+	height:45%;
+}
+
+/* 新闻公告类  */
+#main_column .news{
+	width:100%;
+	padding:10px 0;
+}
+#main_column .news:nth-child(odd){
+	border-right:1px solid #ddd;
+}
+#main_column .news:nth-child(1),#main_column .news:nth-child(2){
+	border-bottom:1px solid #ddd;
+}
+
+#main_column .news_img{
+	width:50%;
+	float:left;
+	color:#666;
+}
+#main_column .news_img p{
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow:hidden;
+}
+
+#main_column .news_img img{
+	width:60%;
+	height:60%;
+	margin:0 8px 0 auto;
+}
+#main_column .news_img h3{
+	font-size:16px;
+	margin:15% 0 3px 0;
+	font-weight:bold;
+}
+#main_column .news_text{
+	text-align:center;
+	color:#777;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	font-size:10px;
+	padding:3px 0;
+}
+
+
+
+/*	游戏进入	*/
+#main_list{
+	margin:5px 0 50px;
+	padding:5px 0;
+}
+#main_list img{
+	width:50%;
+	height:50%;
+	margin:0 auto;
+}
+#main_list .list_text{
+	text-align:center;
+}
+#main_list .list_text h4{
+	height:30px;
+	line-height:30px;
+	margin:0;
+	font-size:16px;
+}
+#main_list .list_text p{
+	margin:0;
+	line-height:2;
+}
+
+
+
+/*	没有小于768px 是因为Bootstrap3 以移动端优先设计	*/
+/*	小屏幕 (平板，大于等于768px)	*/
+@media (min-width: 768px) {
+
+.main_row a img{
+	margin:0 auto;
+	width:35%;
+	height:35%;
+}
+#main_list img{
+	width:45%;
+	height:45%;
+}	
+#main_column .news_img img{
+	width:52%;
+	height:52%;
+}
+#main_column .news_img h3{
+	margin:25px 0 3px 0;
+}
+
+	
+}
+
+/*	中等屏幕 (桌面显示，大于等于992px)	*/
+@media (min-width: 992px) {
+
+.main_row a img{
+	margin:0 auto;
+	width:25%;
+	height:25%;
+}
+#main_list img{
+	width:36%;
+	height:36%;
+}
+#main_column .news_img img{
+	width:45%;
+	height:45%;
+}
+#main_column .news_img h3{
+	margin:15px 0 3px 0;
+}
+
+
+
+
+}
+
+/*	大屏幕 (大桌面显示器，大于等于1200px)	*/
+@media (min-width: 1200px) {
+
+.main_row a img{
+	margin:0 auto;
+	width:15%;
+	height:15%;
+}
+
+#main_column img{
+	width:90%;
+	height:40%;
+}
+
+#main_list img{
+	width:30%;
+	height:30%;
+}
+#main_column .news_img img{
+	width:35%;
+	height:35%;
+}
+#main_column .news_img h3{
+	margin:25px 0 3px 0;
+}
+
+
+
+
+
+}
+

@@ -1,0 +1,503 @@
+@charset "utf-8";
+ul,li,dl,ol{
+	padding:0;
+	margin:0;
+}
+/*	急速10首页	*/
+.game_bank p{
+	height:40px;
+	line-height: 40px;
+	margin:0;
+}
+.js_pad{
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+	padding:5px 0;
+}
+.btn_pad{
+	padding:6px 0;
+	width:25%;
+}
+
+.list_col{
+	width:20%;
+	float:left;
+}
+.list-group .list-group-item{
+	padding:0;
+	margin:0;
+	border:none;
+	border-bottom:1px solid #ddd;
+}
+.list-group a{
+	width:100%;
+	display:block;
+	clear:both;
+	height:35px;
+	line-height: 35px;
+	text-align:center;
+	
+}
+.list_pad{
+	padding:0 10px;
+}
+.list_pad img{
+	margin-top:4px;
+}
+.red{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.over{
+	color:#ccc;
+}
+.kj{
+	padding:2px 8px;
+}
+.small-show{
+	width:96%;
+	margin:0 auto;
+}
+.small-show a{
+	text-align:center;
+}
+.small-btn{
+	width:100%;
+	margin:0 auto;
+}
+#dx .small-red,#press .small-red{color:#fff}
+.small-bg{
+	display:block;
+	font-size:16px;
+	padding:0;
+	width:95%;
+	height:35px;
+	line-height:35px;
+	margin: 0 auto 5px;
+	color:#666;
+	font-weight: bold;
+	background: url("../img/gray.png") 0 -2px;
+	border-radius: 90px;
+}
+.small-bg2{
+	display:block;
+	font-size:14px;
+	padding:0;
+	width:95%;
+	height:35px;
+	line-height:35px;
+	margin: 0 auto 5px;
+	color:#666;
+	font-weight: bold;
+	background: url("../img/small_bg.png") 0 -2px;
+}
+.small-s a{
+	font-size:14px;
+}
+.small-red{
+	color:#fff;
+	 background:url("../img/blue.png") 0 -5px;
+	/*background: #ac0000;*/
+	/*background:-webkit-gradient(linear, 0 0, 0 100%, from(#e4c0c0), to(#ac0000));*/
+	/*background:-moz-linear-gradient(top,#e4c0c0,#ac0000);*/
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e4c0c0,endColorstr=#ac0000,grandientType=0);*/
+}
+
+
+/* 	急速金豆明细	*/
+.detailed_coin{
+	height:40px;
+	line-height: 40px;
+	padding:0 10px;
+}
+.detailed_coin p{
+	margin:0 0 5px 0;
+	text-align:left;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.detailed_coin p img{
+	display:inline;
+}
+table tbody tr td img{
+	margin:0 auto;
+}
+
+
+/*  投注  */
+
+.betting_border{
+	border-top:1px solid #eee;
+	height:30px;
+	line-height: 30px;
+}
+.nav_dl{
+	margin:0 auto;
+}
+.nav_dl img{
+	float: left;
+	margin:6px 0 0 4%;
+}
+.nav_ul{
+	width:100%;
+}
+.nav_list{
+	width:95%;
+	margin:0 auto;
+}
+.nav_list > p{
+	margin:5px 0 8px 0;
+}
+.bet_top{
+	width:100%;
+	padding:10px 0;
+	clear:both;
+	background: #000;
+}
+.bet_top a{
+	display:block;
+	width:20%;
+	float:left;
+}
+.bet_top a img{
+	display:block;
+	border:none;
+}
+.nav_tz{
+	position: absolute;
+	top:0;
+	right:0;
+	width:35%;
+}
+.nav_tz dl{
+	width:100%;
+	padding:3px 0 0 0;
+}
+.nav_tz dl dd.sq{
+	width:60%;
+	padding:0 0 5px 0;
+	float:right;
+}
+.nav_tz dl dd.qc{
+	width:40%;
+	padding:0 0 5px 0;
+	float:right;
+}
+.btn-tz{
+	padding:0px 0px;
+	font-size:14px;
+	clear:both;
+	margin:0px 1px 5px 1px;
+	
+	border-radius: 90px;
+	height:35px;
+	line-height:35px;
+	font-weight:600;
+}
+
+#fullbg {
+    background-color:Gray;
+    left:0px;
+    opacity:0.5;
+    position:absolute;
+    top:0px;
+    z-index:3;
+    filter:alpha(opacity=50); /* IE6 */
+    -moz-opacity:0.5; /* Mozilla */
+    -khtml-opacity:0.5; /* Safari */
+}
+
+#presspannel::-webkit-scrollbar {display:none}
+
+#presspannel{
+	width:96%;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	-khtml-border-radius:15px;
+	background-color:white;
+	padding-top:32px;
+	padding-bottom:10px;
+	display:none;
+    left:0;
+    right: 0;
+	top:auto;
+	bottom:130px;
+	margin: auto;
+	position:absolute;
+	overflow:auto;
+	z-index:50;
+}
+
+#presspannel .container-fluid .row{
+	text-align:center;
+}
+
+#closeimg{
+	cursor:pointer;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	-khtml-border-radius:15px;
+}
+
+.result_num{
+	border-radius:90px;
+	-moz-border-radius:90px;
+	-webkit-border-radius:90px;
+	-khtml-border-radius:90px;
+	background-color:red;
+	color:white;
+	font-size: 1.60rem;
+	text-align:center;
+	margin-top:8px;
+	float:left;
+	margin-right:3px;
+}
+
+.source_num{
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+	background-color:red;
+	color:white;
+	font-size: 1.20rem;
+	text-align:center;
+	margin-top:8px;
+	float:left;
+	margin-right:3px;
+	width:20px;
+	height:20px;
+	line-height:20px;
+}
+
+.betXSmall {
+    font-size: 0.60rem;
+    font-weight:200;
+    margin-top:-23px;
+    margin-left:0px;
+    color:#000;
+}
+
+.bottom_left{
+	text-align:left;
+	width:96%;
+	margin: 0 auto;
+}
+.bottom_right{
+	width:96%;
+	margin: 0 auto;
+	display:block;
+	text-align:center;
+}
+.bottom_right a{
+	width:30%;
+}
+.bottom_left p{
+	margin:5px 0 0 5px;
+}
+.bottom_left .chips{
+	width:100%;
+	margin:5px 0 0 5px;
+	clear:both;
+}
+.bottom_left .chips img{
+	float:left;
+	margin:3px 3% 3px 5px;
+}
+.bottom_right dd{
+	width:33%;
+	float:left;
+}
+.bottom_right dt{
+	clear:both;
+}
+p.jl{
+	height:45px;
+	line-height: 20px;
+	margin:0;
+}
+
+.betting_tz{
+	margin:5px 0;	
+}
+.betting_pad{
+	padding:0 5px;
+}
+.betting_top{
+	padding:3px 0;
+}
+.betting_tz a{
+	padding:5px 0;
+	width:90%;
+	margin:3px auto;
+	text-align:center;
+}
+.betting_table table>tbody>tr>td{
+	padding:3px 5px;
+	vertical-align: middle;
+}
+.btn-be{
+	padding:5px 6px;
+}
+.form_table{
+	padding:3px;
+	height:30px;
+}
+.betting_bottom ul{
+	width:100%;
+	padding:3px 10px;
+}
+.betting_bottom ul li{
+	width:25%;
+	float:left;
+}
+.betting_bottom .navbar-nav{
+	position: relative;
+	margin:0;
+	border-top:1px solid #ddd;
+}
+.betting_bottom ul li a{
+	padding:10px 0;
+	display:block;
+	text-align:center;
+}
+#myModal1 h4,#myModal2 h4{
+	text-align:center;
+	font-size:16px;
+}
+
+#myModal1 a,#myModal2 a{
+	width:90%;
+	margin:3px 0;
+}
+
+
+
+
+
+/*	添加模式	*/
+
+.save_name{
+	padding:10px 10px 0;
+
+}
+.save_name p{
+	padding:5px 0 0;
+
+}
+.save_bottom ul{
+	width:100%;
+	border-top:1px solid #ddd;
+}
+
+.save_bottom ul li{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.save_bottom ul li a{
+	display:block;
+}
+
+
+/*	我的投注	*/
+.myBetting table tbody tr td:nth-child(5){
+	color:#dd2726;
+}
+.myBetting table tbody tr:last-child{
+	color:#dd2726;
+}
+
+/*	自动投注		*/
+.auto_set{
+	padding:5px 10px;
+	margin-bottom:5px;
+}
+.auto_input{
+	margin-bottom:10px;
+}
+.auto_set table tbody tr td:nth-child(2){
+	color:#dd2726;
+}
+.auto_set table tbody tr td:nth-child(3){
+	color:green;
+}
+.auto_table .form-control{
+	padding:0 3px;
+}
+
+
+/*   游戏规则		 */
+.rule_well{
+	padding:10px;
+	margin:5px 0;
+
+}
+.rule_well h3{
+	font-size:16px;
+	margin:0;
+}
+.rule_well p{
+	margin:0;
+	text-indent:30px;
+	line-height: 1.6;
+}
+
+
+/*	走势图	*/
+.jg{
+	background:#FFFDF8;
+}
+.fc{
+	background: #FFCCCC;
+}
+.tr_bg{
+	background: orange;
+}
+
+#list{
+	margin-bottom:10px;
+}
+#headingOne{
+	font-size:14px;
+}
+.game_btn{
+	background: url("../img/btn_atsumnum.jpg");
+}
+
+
+
+
+
+/*	没有小于768px 是因为Bootstrap3 以移动端优先设计	*/
+/*	小屏幕 (平板，大于等于768px)	*/
+@media (min-width: 768px) {
+
+
+
+	
+}
+
+/*	中等屏幕 (桌面显示，大于等于992px)	*/
+@media (min-width: 992px) {
+
+
+
+
+
+
+}
+
+/*	大屏幕 (大桌面显示器，大于等于1200px)	*/
+@media (min-width: 1200px) {
+
+
+
+
+}
+.w1{width:58%}

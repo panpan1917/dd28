@@ -1,0 +1,59 @@
+.trend_width{
+    width: 
+}
+.qihao {
+    font-size: 12px;
+}
+.shijian {
+    font-size: 12px;
+}
+.jieguo {
+    font-size: 12px;
+}
+.qihao span {
+    color: #ff0000;
+    font-size: 14px;
+}
+.bian {
+    background-color: #3333ff;
+    color: #ffffff;
+}
+.zhong {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.dan {
+    background-color: #ea2640;
+    color: #ffffff;
+    font-size: 12px;
+}
+.shuang {
+    background-color: #663399;
+    color: #ffffff;
+    font-size: 12px;
+}
+.da {
+    background-color: #ff8040;
+    color: #ffffff;
+    font-size: 12px;
+}
+.xiao {
+    background-color: #ff00ff;
+    color: #ffffff;
+    font-size: 12px;
+}
+.sz_top {
+    font-size: 12px;
+}
+.xz {
+    background-color: #ea2640;
+    color: #ffffff;
+}
+.dz {
+    background-color: #6655aa;
+    color: #ffffff;
+}
+.ico_eggs {
+    background: rgba(0, 0, 0, 0) url("../img/index/login/eggs.gif") no-repeat scroll left center;
+    padding: 4px;
+}

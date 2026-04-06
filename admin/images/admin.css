@@ -1,0 +1,26 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ background:#086da6;}
+.logo{ width:650px; margin:0 auto; background:url(logo.png) no-repeat center; height:142px;}
+.login{width:650px; margin:120px auto 0; box-shadow:0 0 10px 1px #000; background:url(login_bg.png) no-repeat center; height:440px;}
+.login ul{ width:282px; margin:0 auto; padding-top:165px;}
+.login ul li{ width:240px; height:39px; list-style-type:none; margin-bottom:10px; padding:2px 0 2px 42px; font-size:14px;}
+.login ul li.uese{ background:url(login_uese.fw.png) no-repeat 0 center;}
+.login ul li.pass{ background:url(login_pass.fw.png) no-repeat 0 center; }
+.login ul li.yzm{ background:url(login_yzm.fw.png) no-repeat 0 center; }
+.login ul li input{ height:29px; line-height:29px; padding:5px 0; text-indent:5px; border:none; float:left; outline:none;}
+.login ul li.uese input{ width:232px;}
+.login ul li.pass input{ width:232px;}
+.login ul li.yzm input{ width:125px;}
+.login ul li.yzm a{ float:left; margin-left:12px;}
+.login ul li.yzm img{ width:100px; height:39px; border:none;}
+.login p{ width:134px; height:42px; margin:30px auto 0 auto; line-height:42px;}
+.login button{ width:134px; height:42px; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; margin:0 auto; background:url(bootm.fw.png) no-repeat center; border:none; color:#fff; font-size:20px; font-family:'黑体'; text-align:center; cursor:pointer; line-height:42px;}
+
+
+
+
+
+
+
+

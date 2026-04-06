@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+/*	点卡充值	*/
+.member_card{
+	padding:0 10px;
+}
+.paycard{
+	padding:10px 0;
+}
+.dashed{
+	padding:3px 5px;
+	border:1px dashed #666;
+}
+
+
+
+/*	兑换奖品	*/
+ .member_gift{
+	margin-top:5px;
+	padding:5px 0;
+}
+.member_ex .media{
+	padding:0 0 0 10px;
+}
+.member_ex .media span{
+	font-size:22px;
+	color:#99CCFF
+}
+.member_ex .media h4{
+	font-size:14px;
+}
+.member_ex .media p{
+	margin:0;
+}
+.member_card h4{
+	font-size:14px;
+}
+.member_card ul li.list-group-item{
+	padding:3px;
+}
+.member_card ul li span{
+	margin:0 5px;
+}
+.member_add{
+	padding:0 10px;
+}
+.add_btn{
+	border:none;
+	background:none;
+	padding:0 3px;
+}
+
+
+/*	我的点卡 金豆明细  我的下线  推广收益	*/
+
+.member_mycard{
+	padding:0 5px;
+	margin-top:5px;
+}
+table{
+	margin-top:5px;
+}
+
+/*  我的银行		*/
+.member_coin{
+	margin:10px 0;
+}
+.message_text{
+	margin:10px 0;
+}
+
+
+/*   邀请好友     */
+ .member_yq{
+ 	margin:5px 0;
+ }
+ .member_way h4{
+ 	font-size:14px;
+ 	margin:5px 0;
+ }
+.member_way p{
+  	margin:0;
+}
+ .member_way .panel-heading{
+ 	padding:3px 10px;
+ }
+
+
+/*   排行奖励  */
+
+
+
+
+/*  每日签到  */
+.mbmber_signin{
+	margin-top:5px;
+}
+.mbmber_signin li{
+	padding:8px;
+	letter-spacing:1px;
+}
+
+/*	领取工资	*/
+
+.member_wages{
+	padding:5px;
+	margin-top:5px;
+}
+
+/*	密码修改		*/
+
+.member_pwd{
+	margin-top:5px;
+	margin-bottom:-1px;
+}
+.member_pwd ul li a{
+	color:#5c6570;
+}
+
+
+
+/*	身份验证		*/
+.member_verlidation{
+	padding:10px;
+	margin-top:5px;
+}
+.verlidation{
+	margin:10px 0;
+}
+.verlidation_send{
+	margin:5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

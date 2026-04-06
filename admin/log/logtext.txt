@@ -1,0 +1,45 @@
+2015-09-26 18:02:09 sdfsdfis:0
+2015-09-26 18:04:09 sdfsdfis:0
+2015-09-26 18:06:09 sdfsdfis:
+2015-09-26 18:11:09 sdfsdfis:
+2015-09-26 18:11:09 sdfsdfis:
+2015-09-26 18:12:09 sdfsdfis:0
+2015-09-26 18:12:09 sdfsdfis:
+2015-09-26 18:13:09 sdfsdfis:
+2015-09-26 18:13:09 sdfsdfis:0
+2015-09-26 18:14:09 sdfsdfis:0
+2015-09-26 22:34:09 select catch_url from game_catch_config where gamekind = ''
+2015-09-26 22:39:09 719128
+2015-09-26 22:45:09 http://localhost:81/timechk567/gamecatchluck.php?key=catch_result_beijing&no=719130
+2015-09-26 22:49:09 http://localhost:81/timechk567/gamecatchluck.php?key=catch_result_beijing&no=719129
+2015-10-06 01:50:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:53:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:54:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:54:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:54:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:55:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:55:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:55:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:55:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:58:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-06 01:59:10 call web_agent_dual_withdraw(1,0,'ря╢Р©Н','admin')
+2015-10-11 00:31:10 SELECT *  FROM (
+        			select t.*,(points+back+lock_points) AS totalpoint
+        			from users t
+        			) a
+                    where 1=1  and usertype = 0 and nickname like '%Ф·≈%' order by time desc limit 0,20
+2015-10-11 00:32:10 SELECT *  FROM (
+        			select t.*,(points+back+lock_points) AS totalpoint
+        			from users t
+        			) a
+                    where 1=1  and id like '%2%' and usertype = 0 order by time desc limit 0,20
+2015-10-11 00:33:10 SELECT *  FROM (
+        			select t.*,(points+back+lock_points) AS totalpoint
+        			from users t
+        			) a
+                    where 1=1  and usertype = 0 order by time desc limit 0,20
+2015-10-11 00:33:10 SELECT *  FROM (
+        			select t.*,(points+back+lock_points) AS totalpoint
+        			from users t
+        			) a
+                    where 1=1  and usertype = 0 and nickname like '%аж%' order by time desc limit 0,20
